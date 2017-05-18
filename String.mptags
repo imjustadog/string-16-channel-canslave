@@ -1,0 +1,197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BITRATE::500000	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	45;"	d	line:45
+BOARD_ID	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	45;"	v	line:45
+BRP_VAL::((FCAN/(2*NTQ*BITRATE))-1)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	47;"	d	line:47
+CAN_BUF_EMPTY::0x06	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	59;"	d	line:59
+CAN_BUF_FULL::0x05	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	58;"	d	line:58
+CAN_FILTERMASK2REG_EID0::(x)(x&0xFFFF)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	81;"	d	line:81
+CAN_FILTERMASK2REG_EID1::(x)(((x&0x1FFC)<<3)|(x&0x3))	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	82;"	d	line:82
+CAN_FILTERMASK2REG_SID::(x)((x&0x07FF)<<5)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	67;"	d	line:67
+CAN_FILTERSTD::(sid)(sid&0xFFF7)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	75;"	d	line:75
+CAN_FILTERXTD::(sid)(sid|0x0008)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	72;"	d	line:72
+CAN_FRAME_EXT::0x03	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	56;"	d	line:56
+CAN_FRAME_STD::0x04	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	57;"	d	line:57
+CAN_MSG_DATA::0x01	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	54;"	d	line:54
+CAN_MSG_RTR::0x02	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	55;"	d	line:55
+CAN_SETMIDE::(sid)(sid|0x0008)	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	69;"	d	line:69
+CEA::LATGbits.LATG0	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	24;"	d	line:24	file:
+CEB::LATGbits.LATG1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	25;"	d	line:25	file:
+CEC::LATGbits.LATG2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	26;"	d	line:26	file:
+CED::LATGbits.LATG3	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	27;"	d	line:27	file:
+CEE::LATDbits.LATD7	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	28;"	d	line:28	file:
+CEF::LATDbits.LATD2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	29;"	d	line:29	file:
+CEG::LATDbits.LATD1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	30;"	d	line:30	file:
+CEH::LATDbits.LATD3	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	31;"	d	line:31	file:
+CE_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	61;"	v	line:61
+CLRWDT::{__asm__volatile("CLRWDT");}	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	22;"	d	line:22	file:
+DELAY	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	99;"	f	line:99	signature:(unsigned int t)
+ECAN1MSGBUF	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	85;"	t	line:85
+ECAN1_MSG_BUF_LENGTH::4	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	51;"	d	line:51
+FCAN::20000000	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	44;"	d	line:44
+GetPeriod	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	86;"	f	line:86	signature:(int Channel)
+GetPeriod	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.h	4;"	p	line:4	signature:(int Channel)
+IC1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	88;"	l	line:88
+IC2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	88;"	l	line:88
+IC3	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	88;"	l	line:88
+InitADC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\adc.c	9;"	f	line:9	signature:(void)
+InitADC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\adc.h	1;"	p	line:1	signature:()
+InitIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	9;"	f	line:9
+InitIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.h	1;"	p	line:1	signature:()
+InitSCI	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\sci.c	9;"	f	line:9
+InitSCI	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\sci.h	1;"	p	line:1	signature:()
+InitSPI	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	9;"	f	line:9
+InitSPI	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	3;"	p	line:3	signature:()
+InitTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	32;"	f	line:32
+InitTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	10;"	p	line:10	signature:()
+InitTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	9;"	f	line:9
+InitTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	7;"	p	line:7	signature:()
+NTQ::20	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	46;"	d	line:46
+POWER1::LATCbits.LATC14	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	37;"	d	line:37	file:
+POWER2::LATDbits.LATD0	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	38;"	d	line:38	file:
+POWER::LATCbits.LATC13	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	36;"	d	line:36	file:
+PR1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	89;"	l	line:89
+PR2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	89;"	l	line:89
+RDID	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	84;"	f	line:84
+RDID	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	6;"	p	line:6	signature:()
+RDSR	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	49;"	f	line:49
+RDSR	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	5;"	p	line:5	signature:()
+READ	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	140;"	f	line:140	signature:(unsigned char addr1, unsigned char addr2, unsigned char addr3)
+READ	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	8;"	p	line:8	signature:(unsigned char addr1, unsigned char addr2, unsigned char addr3)
+Read_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	62;"	v	line:62
+Read_Timer_En	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	70;"	v	line:70
+SCK::LATGbits.LATG13	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	1;"	d	line:1
+SDA::LATGbits.LATG12	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	3;"	d	line:3
+Save_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	67;"	v	line:67
+Send_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	66;"	v	line:66
+StartIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	29;"	f	line:29
+StartIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.h	2;"	p	line:2	signature:()
+StartTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	42;"	f	line:42
+StartTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	11;"	p	line:11	signature:()
+StartTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	21;"	f	line:21
+StartTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	8;"	p	line:8	signature:()
+StopIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	74;"	f	line:74
+StopIC	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.h	3;"	p	line:3	signature:()
+StopTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	49;"	f	line:49
+StopTimer2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	12;"	p	line:12	signature:()
+StopTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.c	27;"	f	line:27
+StopTimer6	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\timer.h	9;"	p	line:9	signature:()
+Tick	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	63;"	v	line:63
+Tran_Data	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	95;"	p	line:95	file:	signature:(void)
+Tran_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	68;"	v	line:68
+WREN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	36;"	f	line:36
+WREN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	4;"	p	line:4	signature:()
+WRITE	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	107;"	f	line:107	signature:(unsigned char addr1, unsigned char addr2, unsigned char addr3, unsigned char data)
+WRSR	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	67;"	f	line:67	signature:(unsigned char value)
+WRSR	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	7;"	p	line:7	signature:(unsigned char value)
+ZAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	264;"	l	line:264
+ZAN::LATGbits.LATG13	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	33;"	d	line:33	file:
+_C1Interrupt	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	139;"	f	line:139	signature:(void)
+_T6Interrupt	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	113;"	f	line:113	signature:(void)
+_U2RXInterrupt	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	131;"	f	line:131	signature:(void)
+__ecan_H	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	41;"	d	line:41
+bat	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	55;"	v	line:55
+bat_high	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	57;"	v	line:57
+bat_low	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	57;"	v	line:57
+bat_mid	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	57;"	v	line:57
+buffer	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	97;"	m	line:97
+buffer_status	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	91;"	m	line:91
+canRxMessage	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	90;"	v	line:90
+canTxMessage	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	89;"	v	line:89
+clearRxFlags	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	257;"	f	line:257	signature:(unsigned char buffer_number)
+clearRxFlags	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	110;"	p	line:110	signature:(unsigned char buffer_number)
+curr_addr	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	84;"	v	line:84
+data	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	101;"	m	line:101
+data_length	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	102;"	m	line:102
+ds1302_address	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	8;"	v	line:8
+ds1302_bcd2asc	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	83;"	f	line:83	signature:(unsigned char temp)
+ds1302_bcd2asc	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	17;"	p	line:17	signature:(unsigned char temp)
+ds1302_charger_add::0x90	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	6;"	d	line:6
+ds1302_clkburst_add::0xbe	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	7;"	d	line:7
+ds1302_control_add::0x8e	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	5;"	d	line:5
+ds1302_init	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	101;"	f	line:101	signature:(void)
+ds1302_init	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	19;"	p	line:19	signature:(void)
+ds1302_ram_add::0xc0	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	8;"	d	line:8
+ds1302_read_byte	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	63;"	f	line:63	signature:(unsigned char address)
+ds1302_read_byte	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	15;"	p	line:15	signature:(unsigned char address)
+ds1302_read_time	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	92;"	f	line:92	signature:(unsigned char shift_address)
+ds1302_read_time	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	18;"	p	line:18	signature:(unsigned char shift_address)
+ds1302_write_byte	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	30;"	f	line:30	signature:(unsigned char address, unsigned char tmp)
+ds1302_write_byte	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	13;"	p	line:13	signature:(unsigned char address, unsigned char tmp)
+ds1302_write_time	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	74;"	f	line:74	signature:(unsigned char shift_address, unsigned char time_data)
+ds1302_write_time	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	16;"	p	line:16	signature:(unsigned char shift_address, unsigned char time_data)
+dummy	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	56;"	v	line:56
+ecan1msgBuf	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	91;"	v	line:91
+end_addr	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	82;"	v	line:82
+filter	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	78;"	v	line:78
+filter_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	75;"	v	line:75
+filter_Tick	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	74;"	v	line:74
+filter_freq	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	76;"	v	line:76
+frame_type	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	95;"	m	line:95
+freq	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	50;"	v	line:50
+freq_float	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	53;"	v	line:53
+halt	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	58;"	v	line:58
+halt_Enable	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	69;"	v	line:69
+halt_Tick	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	64;"	v	line:64
+halt_Timeout	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	65;"	v	line:65
+i	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	104;"	l	line:104
+i	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	12;"	l	line:12
+i	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	41;"	l	line:41
+i	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	101;"	l	line:101
+i	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	175;"	l	line:175
+id	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	169;"	l	line:169
+id	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	100;"	m	line:100
+ide	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	167;"	l	line:167
+inc_addr	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	94;"	p	line:94	file:	signature:(void)
+initDMAECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	430;"	f	line:430	signature:(void)
+initDMAECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	108;"	p	line:108	signature:(void)
+initECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	284;"	f	line:284	signature:(void)
+initECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	106;"	p	line:106	signature:(void)
+j	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	41;"	l	line:41
+j	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	101;"	l	line:101
+j	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	176;"	l	line:176
+k	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	176;"	l	line:176
+lq	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	50;"	v	line:50
+mID	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	103;"	t	line:103
+main	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	173;"	f	line:173
+message_type	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	93;"	m	line:93
+nRST::LATGbits.LATG14	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	2;"	d	line:2
+nSS::LATGbits.LATG9	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.h	1;"	d	line:1
+p	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	76;"	l	line:76
+read8bit	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	39;"	f	line:39
+read8bit	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	14;"	p	line:14	signature:()
+read_count	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	85;"	v	line:85
+rtr	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	168;"	l	line:168
+rxECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	165;"	f	line:165	signature:(mID *message)
+rxECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	109;"	p	line:109	signature:(mID *message)
+sec	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	104;"	l	line:104
+sendECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	75;"	f	line:75	signature:(mID *message)
+sendECAN	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.h	107;"	p	line:107	signature:(mID *message)
+stat	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	51;"	l	line:51
+stat	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	86;"	l	line:86
+stat1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	80;"	v	line:80
+state	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	87;"	v	line:87
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	12;"	l	line:12
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	41;"	l	line:41
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	65;"	l	line:65
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	109;"	l	line:109
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	142;"	l	line:142
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	38;"	l	line:38
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\FRAM.c	69;"	l	line:69
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\IC.c	31;"	l	line:31
+temp	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	54;"	v	line:54
+temp_addr	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	83;"	v	line:83
+temp_freq	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\main.c	52;"	v	line:52
+time	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	95;"	l	line:95
+tmp_buf	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	85;"	l	line:85
+word0	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	77;"	l	line:77
+word1	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	78;"	l	line:78
+word2	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\ecan.c	79;"	l	line:79
+write8bit	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.c	10;"	f	line:10	signature:(unsigned char input)
+write8bit	C:\Users\zwq\Desktop\6 2SLAVE\6 2SLAVE\DS1302.h	12;"	p	line:12	signature:(unsigned char input)
